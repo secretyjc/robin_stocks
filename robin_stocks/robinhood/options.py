@@ -13,6 +13,8 @@ spinner = spinning_cursor()
 
 def write_spinner():
     """ Function to create a spinning cursor to tell user that the code is working on getting market data. """
+    return
+
     if get_output()==sys.stdout:
         marketString = 'Loading Market Data '
         sys.stdout.write(marketString)
